@@ -5,17 +5,17 @@ namespace ICMarkets.Api.Application;
 public class BlockchainService : IBlockchainService
 {
     private readonly IHttpClientFactory _factory;
-    private readonly IBlockchainSnapshotRepository _repository; // New Dependency
+    private readonly IUnitOfWork _unitOfWork;
     private readonly IConfiguration _config;
 
-    public BlockchainService(IHttpClientFactory factory, IBlockchainSnapshotRepository repository, IConfiguration config)
+    public BlockchainService(IHttpClientFactory factory,
+        IUnitOfWork unitOfWork, IConfiguration config)
     {
         _factory = factory;
-        _repository = repository;
+        _unitOfWork = unitOfWork;
         _config = config;
     }
 
-    // ... ResolveUrl method remains the same ...
     private string? ResolveUrl(string chain)
     {
         return chain.ToLower() switch
@@ -48,16 +48,15 @@ public class BlockchainService : IBlockchainService
             CreatedAt = DateTime.UtcNow
         };
         
-        // Data access is delegated to the repository
-        await _repository.AddAsync(snap, ct);
-        await _repository.SaveChangesAsync(ct);
+        await _unitOfWork.BlockchainSnapshots.AddAsync(snap, ct);
+        await _unitOfWork.SaveChangesAsync(ct);
         
         return true;
     }
 
-    public async Task<List<BlockchainSnapshot>> GetHistoryAsync(string chain, int limit = 100, CancellationToken ct = default)
+    public async Task<List<BlockchainSnapshot>> GetHistoryAsync(
+        string chain, int limit = 100, CancellationToken ct = default)
     {
-        // Data access is delegated to the repository
-        return await _repository.GetHistoryAsync(chain, limit, ct);
+        return await _unitOfWork.BlockchainSnapshots.GetHistoryAsync(chain, limit, ct);
     }
 }

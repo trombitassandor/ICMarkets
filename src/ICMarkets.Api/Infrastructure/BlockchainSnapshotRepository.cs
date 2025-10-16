@@ -26,9 +26,4 @@ public class BlockchainSnapshotRepository : IBlockchainSnapshotRepository
             .Take(limit)
             .ToListAsync(ct);
     }
-
-    public async Task<int> SaveChangesAsync(CancellationToken ct = default)
-    {
-        return await _db.SaveChangesAsync(ct);
-    }
 }
