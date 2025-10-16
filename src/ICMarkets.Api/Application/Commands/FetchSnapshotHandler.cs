@@ -18,8 +18,7 @@ public class FetchSnapshotHandler : IRequestHandler<FetchSnapshotCommand, bool>
 
     public async Task<bool> Handle(FetchSnapshotCommand command, CancellationToken ct)
     {
-        var chain = command.Chain;
-        var url = ResolveUrl(chain);
+        var url = ResolveUrl(command.Chain);
 
         if (url is null)
         {
@@ -37,7 +36,7 @@ public class FetchSnapshotHandler : IRequestHandler<FetchSnapshotCommand, bool>
         var json = await resp.Content.ReadAsStringAsync(ct);
         var blockchainSnapshot = new BlockchainSnapshot
         {
-            Chain = chain,
+            Chain = command.Chain,
             ApiResponseJson = json,
             CreatedAt = DateTime.UtcNow
         };
@@ -50,13 +49,12 @@ public class FetchSnapshotHandler : IRequestHandler<FetchSnapshotCommand, bool>
     
     private string? ResolveUrl(string chain)
     {
-        return chain.ToLower() switch
+        var chainLower = chain.ToLowerInvariant();
+        
+        return chainLower switch
         {
-            "eth" => _config.GetSection("BlockCypher:eth").Value,
-            "dash" => _config.GetSection("BlockCypher:dash").Value,
-            "btc" => _config.GetSection("BlockCypher:btc").Value,
-            "btc_test3" => _config.GetSection("BlockCypher:btc_test3").Value,
-            "ltc" => _config.GetSection("BlockCypher:ltc").Value,
+            "eth" or "dash" or "btc" or "btc_test3" or "ltc" =>
+                _config[$"BlockCypher:{chainLower}"],
             _ => null
         };
     }
