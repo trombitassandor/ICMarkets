@@ -3,7 +3,7 @@
 This is a scaffolded solution implementing the ICMarkets Web API task:
 - .NET 8 Web API
 - Uses SQLite (EF Core) to persist raw JSON responses from BlockCypher + CreatedAt timestamp
-- Vertical-slices / CQRS-style handlers
+- Clean Architecture, Vertical-slices / CQRS-style handlers
 - Repository, UOW patterns
 - Swagger, HealthChecks, CORS, FluentValidation placeholder
 - Dockerfile included
