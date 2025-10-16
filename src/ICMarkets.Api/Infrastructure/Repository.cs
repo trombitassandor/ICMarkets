@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ICMarkets.Api.Infrastructure;
 
-public class BlockchainSnapshotRepository : IRepository
+public class Repository : IRepository
 {
     private readonly AppDbContext _db;
 
-    public BlockchainSnapshotRepository(AppDbContext db)
+    public Repository(AppDbContext db)
     {
         _db = db;
     }

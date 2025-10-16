@@ -3,7 +3,7 @@ using Xunit;
 
 namespace ICMarkets.Tests;
 
-public class BlockchainServiceTests
+public class ServiceTests
 {
     [Fact]
     public void Placeholder_Test()

@@ -5,7 +5,7 @@ using ICMarkets.Api.Domain;
 
 namespace ICMarkets.Api.Application
 {
-    public interface IBlockchainService
+    public interface IService
     {
         /// <summary>
         /// Fetches data for a specific blockchain, processes the response, and stores a snapshot in the database.

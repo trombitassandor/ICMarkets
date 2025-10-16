@@ -7,14 +7,13 @@ public class UnitOfWork : IUnitOfWork
     private readonly AppDbContext _context;
     private IRepository? _blockchainSnapshots;
 
-    // Inject the DbContext to manage the transaction
     public UnitOfWork(AppDbContext context)
     {
         _context = context;
     }
     
     public IRepository Repository => 
-        _blockchainSnapshots ??= new BlockchainSnapshotRepository(_context);
+        _blockchainSnapshots ??= new Repository(_context);
 
     public async Task<int> SaveChangesAsync(CancellationToken ct = default)
     {

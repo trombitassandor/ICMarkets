@@ -6,11 +6,7 @@ public class BlockchainSnapshot
 {
     [Key]
     public Guid Id { get; set; } = Guid.NewGuid();
-
     public string Chain { get; set; } = null!;
-
-    // store raw json response
     public string ApiResponseJson { get; set; } = null!;
-
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 }

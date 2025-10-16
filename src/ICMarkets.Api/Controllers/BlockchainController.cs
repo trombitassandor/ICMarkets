@@ -9,9 +9,9 @@ namespace ICMarkets.Api.Controllers;
 [Route("api/[controller]")]
 public class BlockchainController : ControllerBase
 {
-    private readonly BlockchainService _service;
+    private readonly Service _service;
 
-    public BlockchainController(BlockchainService service)
+    public BlockchainController(Service service)
     {
         _service = service;
     }
@@ -23,8 +23,10 @@ public class BlockchainController : ControllerBase
     public async Task<IActionResult> Fetch(string chain, CancellationToken ct)
     {
         var ok = await _service.FetchAndStoreAsync(chain, ct);
-        if (!ok) return BadRequest(new { error = "Unknown chain or failed to fetch" });
-        return Ok(new { result = "stored" });
+
+        return ok 
+            ? Ok(new { result = "stored" }) 
+            : BadRequest(new { error = "Unknown chain or failed to fetch" });
     }
 
     /// <summary>
@@ -34,6 +36,18 @@ public class BlockchainController : ControllerBase
     public async Task<IActionResult> History(string chain, int limit = 50, CancellationToken ct = default)
     {
         var items = await _service.GetHistoryAsync(chain, limit, ct);
-        return Ok(items.Select(x => new { x.Id, x.Chain, x.CreatedAt, ApiResponseJson = JsonDocument.Parse(x.ApiResponseJson) }));
+
+        var okValue = items.Select(blockchainSnapshot => new
+        {
+            blockchainSnapshot.Id,
+            blockchainSnapshot.Chain,
+            blockchainSnapshot.CreatedAt,
+            ApiResponseJson = JsonDocument.Parse(
+                blockchainSnapshot.ApiResponseJson)
+        });
+        
+        var isOk = Ok(okValue);
+        
+        return isOk;
     }
 }
