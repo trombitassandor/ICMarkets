@@ -132,3 +132,9 @@
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/src/ICMarkets.Api/obj/Debug/net9.0/ICMarkets.Api.pdb
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/src/ICMarkets.Api/obj/Debug/net9.0/ICMarkets.Api.genruntimeconfig.cache
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/src/ICMarkets.Api/obj/Debug/net9.0/ref/ICMarkets.Api.dll
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/ICMarkets.Api/bin/Debug/net9.0/MediatR.dll
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/ICMarkets.Api/bin/Debug/net9.0/MediatR.Contracts.dll
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/ICMarkets.Api/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/ICMarkets.Api/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/ICMarkets.Api/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/ICMarkets.Api/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll

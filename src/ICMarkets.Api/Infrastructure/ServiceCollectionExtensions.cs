@@ -1,4 +1,5 @@
 using ICMarkets.Api.Application;
+using ICMarkets.Api.Application.Commands;
 using ICMarkets.Api.Domain;
 
 namespace ICMarkets.Api.Infrastructure;
@@ -11,6 +12,9 @@ public static class ServiceCollectionExtensions
         services.AddScoped<IUnitOfWork, UnitOfWork>();
         services.AddScoped<IRepository, Repository>();
         services.AddScoped<Service>();
+        services.AddMediatR(configurator => 
+            configurator.RegisterServicesFromAssembly(
+                typeof(FetchSnapshotCommand).Assembly));
         return services;
     }
 }

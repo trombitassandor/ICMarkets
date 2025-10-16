@@ -1,6 +1,8 @@
 using System.Text.Json;
 using ICMarkets.Api.Application;
+using ICMarkets.Api.Application.Commands;
 using ICMarkets.Api.Infrastructure;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ICMarkets.Api.Controllers;
@@ -9,11 +11,12 @@ namespace ICMarkets.Api.Controllers;
 [Route("api/[controller]")]
 public class BlockchainController : ControllerBase
 {
-    private readonly Service _service;
+    //private readonly Service _service;
+    private readonly IMediator _mediator;
 
-    public BlockchainController(Service service)
+    public BlockchainController(IMediator mediator)
     {
-        _service = service;
+        _mediator = mediator;
     }
 
     /// <summary>
@@ -22,10 +25,11 @@ public class BlockchainController : ControllerBase
     [HttpPost("fetch/{chain}")]
     public async Task<IActionResult> Fetch(string chain, CancellationToken ct)
     {
-        var ok = await _service.FetchAndStoreAsync(chain, ct);
+        var command = new FetchSnapshotCommand(chain);
+        var ok = await _mediator.Send(command, ct);
 
-        return ok 
-            ? Ok(new { result = "stored" }) 
+        return ok
+            ? Ok(new { result = "stored" })
             : BadRequest(new { error = "Unknown chain or failed to fetch" });
     }
 
@@ -35,7 +39,8 @@ public class BlockchainController : ControllerBase
     [HttpGet("history/{chain}")]
     public async Task<IActionResult> History(string chain, int limit = 50, CancellationToken ct = default)
     {
-        var items = await _service.GetHistoryAsync(chain, limit, ct);
+        var command = new GetHistoryQuery(chain, limit);
+        var items = await _mediator.Send(command, ct);
 
         var okValue = items.Select(blockchainSnapshot => new
         {
