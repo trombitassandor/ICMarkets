@@ -48,7 +48,7 @@ public class BlockchainService : IBlockchainService
             CreatedAt = DateTime.UtcNow
         };
         
-        await _unitOfWork.BlockchainSnapshots.AddAsync(snap, ct);
+        await _unitOfWork.Repository.AddAsync(snap, ct);
         await _unitOfWork.SaveChangesAsync(ct);
         
         return true;
@@ -57,6 +57,6 @@ public class BlockchainService : IBlockchainService
     public async Task<List<BlockchainSnapshot>> GetHistoryAsync(
         string chain, int limit = 100, CancellationToken ct = default)
     {
-        return await _unitOfWork.BlockchainSnapshots.GetHistoryAsync(chain, limit, ct);
+        return await _unitOfWork.Repository.GetHistoryAsync(chain, limit, ct);
     }
 }

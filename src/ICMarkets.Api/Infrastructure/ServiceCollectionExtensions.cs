@@ -8,7 +8,7 @@ public static class ServiceCollectionExtensions
     public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration config)
     {
         services.AddHttpClient("blockcypher");
-        services.AddScoped<IBlockchainSnapshotRepository, BlockchainSnapshotRepository>();
+        services.AddScoped<IRepository, BlockchainSnapshotRepository>();
         services.AddScoped<BlockchainService>();
         return services;
     }

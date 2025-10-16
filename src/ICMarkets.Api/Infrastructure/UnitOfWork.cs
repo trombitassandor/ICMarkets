@@ -5,7 +5,7 @@ namespace ICMarkets.Api.Infrastructure;
 public class UnitOfWork : IUnitOfWork
 {
     private readonly AppDbContext _context;
-    private IBlockchainSnapshotRepository? _blockchainSnapshots;
+    private IRepository? _blockchainSnapshots;
 
     // Inject the DbContext to manage the transaction
     public UnitOfWork(AppDbContext context)
@@ -13,7 +13,7 @@ public class UnitOfWork : IUnitOfWork
         _context = context;
     }
     
-    public IBlockchainSnapshotRepository BlockchainSnapshots => 
+    public IRepository Repository => 
         _blockchainSnapshots ??= new BlockchainSnapshotRepository(_context);
 
     public async Task<int> SaveChangesAsync(CancellationToken ct = default)
