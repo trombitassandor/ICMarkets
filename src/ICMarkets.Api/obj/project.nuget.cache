@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7bEcM6tcaPY=",
+  "dgSpecHash": "12odud05kec=",
   "success": true,
-  "projectFilePath": "/Users/sandortrombitas/Downloads/icmarkets_dotnet_project/src/ICMarkets.Api/ICMarkets.Api.csproj",
+  "projectFilePath": "/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/ICMarkets.Api/ICMarkets.Api.csproj",
   "expectedPackageFiles": [
     "/Users/sandortrombitas/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
     "/Users/sandortrombitas/.nuget/packages/fluentvalidation.aspnetcore/11.3.1/fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",

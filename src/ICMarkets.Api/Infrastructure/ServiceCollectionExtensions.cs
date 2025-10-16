@@ -1,3 +1,4 @@
+using ICMarkets.Api.Application;
 using ICMarkets.Api.Domain;
 
 namespace ICMarkets.Api.Infrastructure;

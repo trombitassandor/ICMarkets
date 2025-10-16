@@ -8904,11 +8904,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sandortrombitas/Downloads/icmarkets_dotnet_project/tests/ICMarkets.Tests/ICMarkets.Tests.csproj",
+      "projectUniqueName": "/Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/ICMarkets.Tests/ICMarkets.Tests.csproj",
       "projectName": "ICMarkets.Tests",
-      "projectPath": "/Users/sandortrombitas/Downloads/icmarkets_dotnet_project/tests/ICMarkets.Tests/ICMarkets.Tests.csproj",
+      "projectPath": "/Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/ICMarkets.Tests/ICMarkets.Tests.csproj",
       "packagesPath": "/Users/sandortrombitas/.nuget/packages/",
-      "outputPath": "/Users/sandortrombitas/Downloads/icmarkets_dotnet_project/tests/ICMarkets.Tests/obj/",
+      "outputPath": "/Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/ICMarkets.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sandortrombitas/.nuget/NuGet/NuGet.Config"
@@ -8923,8 +8923,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/sandortrombitas/Downloads/icmarkets_dotnet_project/src/ICMarkets.Api/ICMarkets.Api.csproj": {
-              "projectPath": "/Users/sandortrombitas/Downloads/icmarkets_dotnet_project/src/ICMarkets.Api/ICMarkets.Api.csproj"
+            "/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/ICMarkets.Api/ICMarkets.Api.csproj": {
+              "projectPath": "/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/ICMarkets.Api/ICMarkets.Api.csproj"
             }
           }
         }

@@ -1,4 +1,5 @@
 using System.Text.Json;
+using ICMarkets.Api.Application;
 using ICMarkets.Api.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 

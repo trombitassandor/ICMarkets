@@ -1,8 +1,8 @@
 using ICMarkets.Api.Domain;
 
-namespace ICMarkets.Api.Infrastructure;
+namespace ICMarkets.Api.Application;
 
-public class BlockchainService
+public class BlockchainService : IBlockchainService
 {
     private readonly IHttpClientFactory _factory;
     private readonly IBlockchainSnapshotRepository _repository; // New Dependency

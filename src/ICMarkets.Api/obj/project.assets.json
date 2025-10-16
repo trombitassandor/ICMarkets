@@ -3328,11 +3328,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sandortrombitas/Downloads/icmarkets_dotnet_project/src/ICMarkets.Api/ICMarkets.Api.csproj",
+      "projectUniqueName": "/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/ICMarkets.Api/ICMarkets.Api.csproj",
       "projectName": "ICMarkets.Api",
-      "projectPath": "/Users/sandortrombitas/Downloads/icmarkets_dotnet_project/src/ICMarkets.Api/ICMarkets.Api.csproj",
+      "projectPath": "/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/ICMarkets.Api/ICMarkets.Api.csproj",
       "packagesPath": "/Users/sandortrombitas/.nuget/packages/",
-      "outputPath": "/Users/sandortrombitas/Downloads/icmarkets_dotnet_project/src/ICMarkets.Api/obj/",
+      "outputPath": "/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/ICMarkets.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sandortrombitas/.nuget/NuGet/NuGet.Config"

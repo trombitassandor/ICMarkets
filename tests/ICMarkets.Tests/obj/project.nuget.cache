@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ogoh7sij2ck=",
+  "dgSpecHash": "1TmzxE8fdtE=",
   "success": true,
-  "projectFilePath": "/Users/sandortrombitas/Downloads/icmarkets_dotnet_project/tests/ICMarkets.Tests/ICMarkets.Tests.csproj",
+  "projectFilePath": "/Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/ICMarkets.Tests/ICMarkets.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/sandortrombitas/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/Users/sandortrombitas/.nuget/packages/devlooped.sponsorlink/1.0.0/devlooped.sponsorlink.1.0.0.nupkg.sha512",
