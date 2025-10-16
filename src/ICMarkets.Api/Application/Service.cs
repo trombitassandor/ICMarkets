@@ -34,14 +34,14 @@ public class Service : IService
         }
 
         var json = await resp.Content.ReadAsStringAsync(ct);
-        var snap = new BlockchainSnapshot
+        var blockchainSnapshot = new BlockchainSnapshot
         {
             Chain = chain,
             ApiResponseJson = json,
             CreatedAt = DateTime.UtcNow
         };
         
-        await _unitOfWork.Repository.AddAsync(snap, ct);
+        await _unitOfWork.Repository.AddAsync(blockchainSnapshot, ct);
         await _unitOfWork.SaveChangesAsync(ct);
         
         return true;

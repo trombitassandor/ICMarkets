@@ -28,8 +28,12 @@ builder.Services.AddCors(options =>
 });
 
 // Configuration: sqlite connection
-var connectionString = builder.Configuration.GetConnectionString("Sqlite") ?? "Data Source=icmarkets.db";
-builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite(connectionString));
+var connectionString = 
+    builder.Configuration.GetConnectionString("Sqlite") ?? 
+    "Data Source=icmarkets.db";
+
+builder.Services.AddDbContext<AppDbContext>(
+    options => options.UseSqlite(connectionString));
 
 // Infrastructure registrations
 builder.Services.AddInfrastructureServices(builder.Configuration);
@@ -39,11 +43,12 @@ builder.Services.AddHealthChecks().AddDbContextCheck<AppDbContext>("sqlite-db");
 
 var app = builder.Build();
 
-// Migrate database
+// Database Initialization ⬅️ CHANGE HERE
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    db.Database.Migrate();
+    //db.Database.Migrate();
+    db.Database.EnsureCreated(); 
 }
 
 app.UseCors("DefaultCors");
