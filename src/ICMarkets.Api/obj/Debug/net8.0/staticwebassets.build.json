@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "yuVIjmz7b/DPi3kJI0v4DkrQh29rhebky4mq44YdBPw=",
+  "Source": "ICMarkets.Api",
+  "BasePath": "_content/ICMarkets.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

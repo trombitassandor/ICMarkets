@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1TmzxE8fdtE=",
+  "dgSpecHash": "vlnFQEHc93E=",
   "success": true,
   "projectFilePath": "/Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/ICMarkets.Tests/ICMarkets.Tests.csproj",
   "expectedPackageFiles": [
@@ -154,9 +154,7 @@
     "/Users/sandortrombitas/.nuget/packages/xunit.core/2.5.3/xunit.core.2.5.3.nupkg.sha512",
     "/Users/sandortrombitas/.nuget/packages/xunit.extensibility.core/2.5.3/xunit.extensibility.core.2.5.3.nupkg.sha512",
     "/Users/sandortrombitas/.nuget/packages/xunit.extensibility.execution/2.5.3/xunit.extensibility.execution.2.5.3.nupkg.sha512",
-    "/Users/sandortrombitas/.nuget/packages/xunit.runner.visualstudio/2.5.3/xunit.runner.visualstudio.2.5.3.nupkg.sha512",
-    "/Users/sandortrombitas/.nuget/packages/microsoft.netcore.app.ref/8.0.12/microsoft.netcore.app.ref.8.0.12.nupkg.sha512",
-    "/Users/sandortrombitas/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.12/microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512"
+    "/Users/sandortrombitas/.nuget/packages/xunit.runner.visualstudio/2.5.3/xunit.runner.visualstudio.2.5.3.nupkg.sha512"
   ],
   "logs": [
     {
@@ -166,7 +164,7 @@
       "message": "Package 'Moq' 4.20.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-6r78-m64m-qwcf",
       "libraryId": "Moq",
       "targetGraphs": [
-        "net8.0"
+        "net9.0"
       ]
     }
   ]
