@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ICMarkets.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fb04e5afc5a98dcc3ea93a51697609e71c92f04")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd0fb5fdc1654cba56fab9da20ddf1051b404973")]
 [assembly: System.Reflection.AssemblyProductAttribute("ICMarkets.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ICMarkets.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
