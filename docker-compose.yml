@@ -1,0 +1,20 @@
+# docker-compose.yml
+version: '3.4'
+
+services:
+  icmarkets.presentation:
+    image: icmarkets-api:latest # Name of the image you built
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      # CRITICAL: Ensures Swagger is enabled and the app listens correctly
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080 
+    ports:
+      # Host:Container mapping
+      - "8080:8080"
+    volumes:
+      # Optional: Uncomment if you want to persist the SQLite DB outside the container
+      # - ./data:/app/data
+    restart: always
