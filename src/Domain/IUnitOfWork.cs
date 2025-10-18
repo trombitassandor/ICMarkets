@@ -1,4 +1,4 @@
-namespace Domain;
+namespace ICMarkets.Domain;
 
 public interface IUnitOfWork : IDisposable
 {

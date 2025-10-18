@@ -1,6 +1,6 @@
-/Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/bin/Debug/net9.0/appsettings.json
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/bin/Debug/net9.0/Api.deps.json
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/bin/Debug/net9.0/Api.runtimeconfig.json
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/bin/Debug/net9.0/appsettings.json
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/bin/Debug/net9.0/Api.staticwebassets.endpoints.json
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/bin/Debug/net9.0/Api
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/bin/Debug/net9.0/MvcTestingAppManifest.json
@@ -428,10 +428,12 @@
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/bin/Debug/net9.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/bin/Debug/net9.0/Api.dll
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/bin/Debug/net9.0/Application.dll
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/bin/Debug/net9.0/Controllers.dll
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/bin/Debug/net9.0/Domain.dll
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/bin/Debug/net9.0/Infrastructure.dll
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/bin/Debug/net9.0/Api.pdb
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/bin/Debug/net9.0/Application.pdb
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/bin/Debug/net9.0/Controllers.pdb
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/bin/Debug/net9.0/Domain.pdb
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/bin/Debug/net9.0/Infrastructure.pdb
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/obj/Debug/net9.0/Tests.Functional.csproj.AssemblyReference.cache
@@ -446,5 +448,3 @@
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/obj/Debug/net9.0/refint/Tests.Functional.dll
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/obj/Debug/net9.0/Tests.Functional.pdb
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/obj/Debug/net9.0/ref/Tests.Functional.dll
-/Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/bin/Debug/net9.0/Controllers.dll
-/Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Functional/bin/Debug/net9.0/Controllers.pdb

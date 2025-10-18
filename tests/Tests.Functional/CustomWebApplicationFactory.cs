@@ -1,5 +1,5 @@
 using System.Net;
-using Domain;
+using ICMarkets.Domain;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.DependencyInjection;

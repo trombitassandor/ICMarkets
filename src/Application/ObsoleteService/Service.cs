@@ -1,7 +1,7 @@
-using Domain;
+using ICMarkets.Domain;
 using Microsoft.Extensions.Configuration;
 
-namespace Application.ObsoleteService;
+namespace ICMarkets.Application.ObsoleteService;
 
 public class Service(
     IHttpClientFactory factory,

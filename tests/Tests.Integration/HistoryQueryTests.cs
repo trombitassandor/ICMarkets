@@ -1,6 +1,6 @@
 using System.Text.Json;
-using Domain;
-using Infrastructure;
+using ICMarkets.Domain;
+using ICMarkets.Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
 using Xunit;
 

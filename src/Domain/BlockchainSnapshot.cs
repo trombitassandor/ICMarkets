@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Domain;
+namespace ICMarkets.Domain;
 
 public class BlockchainSnapshot
 {

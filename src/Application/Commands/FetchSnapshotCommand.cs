@@ -1,5 +1,5 @@
 using MediatR;
 
-namespace Application.Commands;
+namespace ICMarkets.Application.Commands;
 
 public record FetchSnapshotCommand(string Chain) : IRequest<bool>;

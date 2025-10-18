@@ -1,6 +1,6 @@
-/Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/bin/Debug/net9.0/appsettings.json
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/bin/Debug/net9.0/Api.deps.json
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/bin/Debug/net9.0/Api.runtimeconfig.json
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/bin/Debug/net9.0/appsettings.json
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/bin/Debug/net9.0/Api.staticwebassets.endpoints.json
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/bin/Debug/net9.0/Api
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/bin/Debug/net9.0/MvcTestingAppManifest.json
@@ -283,11 +283,13 @@
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/bin/Debug/net9.0/refs/WindowsBase.dll
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/bin/Debug/net9.0/Api.dll
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/bin/Debug/net9.0/Application.dll
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/bin/Debug/net9.0/Controllers.dll
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/bin/Debug/net9.0/Domain.dll
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/bin/Debug/net9.0/Infrastructure.dll
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/bin/Debug/net9.0/Api.pdb
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/bin/Debug/net9.0/Infrastructure.pdb
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/bin/Debug/net9.0/Application.pdb
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/bin/Debug/net9.0/Controllers.pdb
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/bin/Debug/net9.0/Domain.pdb
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/obj/Debug/net9.0/Tests.Integration.csproj.AssemblyReference.cache
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/obj/Debug/net9.0/MvcTestingAppManifest.json
@@ -301,5 +303,3 @@
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/obj/Debug/net9.0/refint/Tests.Integration.dll
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/obj/Debug/net9.0/Tests.Integration.pdb
 /Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/obj/Debug/net9.0/ref/Tests.Integration.dll
-/Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/bin/Debug/net9.0/Controllers.dll
-/Users/sandortrombitas/Documents/GitHub/ICMarkets/tests/Tests.Integration/bin/Debug/net9.0/Controllers.pdb

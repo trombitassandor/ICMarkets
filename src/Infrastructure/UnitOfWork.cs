@@ -1,6 +1,6 @@
-using Domain;
+using ICMarkets.Domain;
 
-namespace Infrastructure;
+namespace ICMarkets.Infrastructure;
 
 public class UnitOfWork : IUnitOfWork
 {

@@ -1,7 +1,7 @@
-using Domain;
+using ICMarkets.Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure;
+namespace ICMarkets.Infrastructure;
 
 public class Repository(AppDbContext db) : IRepository
 {

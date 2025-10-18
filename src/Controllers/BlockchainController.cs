@@ -1,9 +1,9 @@
 using System.Text.Json;
-using Application.Commands;
+using ICMarkets.Application.Commands;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Controllers;
+namespace ICMarkets.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

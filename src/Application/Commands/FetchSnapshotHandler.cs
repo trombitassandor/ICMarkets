@@ -1,8 +1,8 @@
-using Domain;
+using ICMarkets.Domain;
 using MediatR;
 using Microsoft.Extensions.Configuration;
 
-namespace Application.Commands;
+namespace ICMarkets.Application.Commands;
 
 public class FetchSnapshotHandler(
     IHttpClientFactory factory, 

@@ -1,6 +1,4 @@
-// File: Api.Domain/IBlockchainSnapshotRepository.cs
-
-namespace Domain;
+namespace ICMarkets.Domain;
 
 public interface IRepository
 {

@@ -1,7 +1,7 @@
-using Domain;
+using ICMarkets.Domain;
 using MediatR;
 
-namespace Application.Commands;
+namespace ICMarkets.Application.Commands;
 
 public class GetHistoryHandler : IRequestHandler<GetHistoryQuery, List<BlockchainSnapshot>>
 {

@@ -1,5 +1,6 @@
-using Controllers;
-using Infrastructure;
+using ICMarkets.Application;
+using ICMarkets.Controllers;
+using ICMarkets.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -36,8 +37,8 @@ var connectionString =
 builder.Services.AddDbContext<AppDbContext>(
     options => options.UseSqlite(connectionString));
 
-// Infrastructure registrations
 builder.Services.AddInfrastructureServices(builder.Configuration);
+builder.Services.AddApplicationServices(builder.Configuration);
 
 // Health checks
 builder.Services.AddHealthChecks().AddDbContextCheck<AppDbContext>("sqlite-db");
