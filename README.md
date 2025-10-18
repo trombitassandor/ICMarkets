@@ -18,6 +18,11 @@ Health check: `https://localhost:5001/health`
 
 The project is a starting point: handlers and services fetch from BlockCypher endpoints and store snapshots.
 
+Repo structure:
+- main (stable state only)
+- develop (development updates)
+- note, main & develop branches history might not align with best practices due to context of test
+
 # Task Description & Requirements:
 
 The purpose of this project is to validate the candidate's approach of designing a Web API. The app
