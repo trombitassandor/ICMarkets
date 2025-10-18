@@ -14,7 +14,6 @@ namespace ICMarkets.Tests.Functional;
 
 public class CustomWebApplicationFactory : WebApplicationFactory<Program>
 {
-    // These Mocks are stored here so the individual test methods can access and configure them.
     public Mock<IUnitOfWork> MockUow { get; } = new Mock<IUnitOfWork>();
     public Mock<IHttpClientFactory> MockHttpClientFactory { get; } = new Mock<IHttpClientFactory>();
 

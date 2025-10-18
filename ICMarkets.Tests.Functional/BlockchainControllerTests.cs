@@ -12,14 +12,11 @@ public class BlockchainControllerTests : IClassFixture<CustomWebApplicationFacto
     private readonly HttpClient _client;
     private readonly CustomWebApplicationFactory _factory;
 
-    // The factory is injected by the Xunit IClassFixture mechanism
     public BlockchainControllerTests(CustomWebApplicationFactory factory)
     {
         _factory = factory;
         _client = factory.CreateClient();
         
-        // Ensure mocks are reset before each test if using a shared fixture, 
-        // though typically mocks are configured per test.
         _factory.MockUow.Invocations.Clear();
         _factory.MockHttpClientFactory.Invocations.Clear();
     }
@@ -62,6 +59,4 @@ public class BlockchainControllerTests : IClassFixture<CustomWebApplicationFacto
             Times.Once,
             "The handler must create and use an HttpClient to fetch external data.");
     }
-    
-    // Add more tests here for scenarios like validation errors, API failures, etc.
 }
