@@ -6,9 +6,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICMarkets.Api", "src/ICMark
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICMarkets.Tests.Unit", "tests\ICMarkets.Tests.Unit\ICMarkets.Tests.Unit.csproj", "{B2222222-2222-2222-2222-222222222222}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICMarkets.Tests.Functional", "ICMarkets.Tests.Functional\ICMarkets.Tests.Functional.csproj", "{5C6A8609-0BB0-41A3-8B98-0F6E1EA718CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICMarkets.Tests.Functional", "tests\ICMarkets.Tests.Functional\ICMarkets.Tests.Functional.csproj", "{5C6A8609-0BB0-41A3-8B98-0F6E1EA718CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICMarkets.Tests.Integration", "ICMarkets.Tests.Integration\ICMarkets.Tests.Integration.csproj", "{7F69DE1B-888A-42B1-B15A-2BC43C7CD240}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICMarkets.Tests.Integration", "tests\ICMarkets.Tests.Integration\ICMarkets.Tests.Integration.csproj", "{7F69DE1B-888A-42B1-B15A-2BC43C7CD240}"
 EndProject
 Global
 				GlobalSection(SolutionConfigurationPlatforms) = preSolution
