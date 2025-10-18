@@ -1,0 +1,16 @@
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/Application/bin/Debug/net9.0/Application.deps.json
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/Application/bin/Debug/net9.0/Application.dll
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/Application/bin/Debug/net9.0/Application.pdb
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/Application/bin/Debug/net9.0/Domain.dll
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/Application/bin/Debug/net9.0/Domain.pdb
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/Application/obj/Debug/net9.0/Application.csproj.AssemblyReference.cache
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/Application/obj/Debug/net9.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/Application/obj/Debug/net9.0/Application.AssemblyInfoInputs.cache
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/Application/obj/Debug/net9.0/Application.AssemblyInfo.cs
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/Application/obj/Debug/net9.0/Application.csproj.CoreCompileInputs.cache
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/Application/obj/Debug/net9.0/Application.sourcelink.json
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/Application/obj/Debug/net9.0/Applicat.44B5EDA2.Up2Date
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/Application/obj/Debug/net9.0/Application.dll
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/Application/obj/Debug/net9.0/refint/Application.dll
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/Application/obj/Debug/net9.0/Application.pdb
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/src/Application/obj/Debug/net9.0/ref/Application.dll

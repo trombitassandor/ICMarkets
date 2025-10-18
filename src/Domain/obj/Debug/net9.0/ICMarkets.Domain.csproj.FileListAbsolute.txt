@@ -1,0 +1,5 @@
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/ICMarkets.Domain/obj/Debug/net9.0/ICMarkets.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/ICMarkets.Domain/obj/Debug/net9.0/ICMarkets.Domain.AssemblyInfoInputs.cache
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/ICMarkets.Domain/obj/Debug/net9.0/ICMarkets.Domain.AssemblyInfo.cs
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/ICMarkets.Domain/obj/Debug/net9.0/ICMarkets.Domain.csproj.CoreCompileInputs.cache
+/Users/sandortrombitas/Documents/GitHub/ICMarkets/ICMarkets.Domain/obj/Debug/net9.0/ICMarkets.Domain.sourcelink.json

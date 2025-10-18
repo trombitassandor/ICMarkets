@@ -1,0 +1,7 @@
+{
+  "Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/sandortrombitas\/Documents\/GitHub\/ICMarkets\/src\/Api",
+  "Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/sandortrombitas\/Documents\/GitHub\/ICMarkets\/src\/Application",
+  "Controllers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/sandortrombitas\/Documents\/GitHub\/ICMarkets\/src\/Controllers",
+  "Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/sandortrombitas\/Documents\/GitHub\/ICMarkets\/src\/Domain",
+  "Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/sandortrombitas\/Documents\/GitHub\/ICMarkets\/src\/Infrastructure"
+}
