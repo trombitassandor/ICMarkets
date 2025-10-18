@@ -12,9 +12,17 @@ This is a scaffolded solution implementing the ICMarkets Web API task:
 - Functional, Integration tests projects (unfinished due to dotnet 9 - packages incompatibility & no capacity for that within context)
 
 Run project api: Build & run main project .Api (dotnet 9) / dotnet run OR dotnet run --project ICMarkets.Api.csproj (inside the repo)
+
 Run tests: run project .Tests.Unity OR dotnet test (inside the repo - Unit tests are supported only for now)
+
 Swagger: `http://localhost:5001/swagger`
+
 Health check: `https://localhost:5001/health`
+
+Docker:
+- Build the image: docker-compose build
+- Run the container: docker-compose up -d
+- Access Swagger: Navigate to http://localhost:8080/swagger
 
 The project is a starting point: handlers and services fetch from BlockCypher endpoints and store snapshots.
 
