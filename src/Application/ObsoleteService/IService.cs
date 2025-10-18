@@ -1,6 +1,3 @@
-// File: IBlockchainService.cs
-// Location: Api.Application (or Api.Domain if you prefer)
-
 using ICMarkets.Domain;
 
 namespace ICMarkets.Application.ObsoleteService
