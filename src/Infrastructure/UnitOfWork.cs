@@ -2,27 +2,21 @@ using ICMarkets.Domain;
 
 namespace ICMarkets.Infrastructure;
 
-public class UnitOfWork : IUnitOfWork
+public class UnitOfWork(AppDbContext context) : IUnitOfWork
 {
-    private readonly AppDbContext _context;
-    private IRepository? _blockchainSnapshots;
+    private IRepository? _repository;
 
-    public UnitOfWork(AppDbContext context)
-    {
-        _context = context;
-    }
-    
     public IRepository Repository => 
-        _blockchainSnapshots ??= new Repository(_context);
+        _repository ??= new Repository(context);
 
     public async Task<int> SaveChangesAsync(CancellationToken ct = default)
     {
-        return await _context.SaveChangesAsync(ct);
+        return await context.SaveChangesAsync(ct);
     }
 
     public void Dispose()
     {
-        _context.Dispose();
+        context.Dispose();
         GC.SuppressFinalize(this);
     }
 }
