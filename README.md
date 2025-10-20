@@ -69,3 +69,9 @@ Frameworks Requirements:
 7. Optional: API Gateway
 Please, the solution should be submitted back to the email by providing a public github URL, a
 ReadMe.md file with instructions. The repository should have main and development branches.
+
+## ⚖️ Copyright and Usage
+
+This codebase is the intellectual property of [Your Full Name] and is **submitted solely for the purpose of technical evaluation** as part of the ICMarkets interview process.
+
+The code is provided under **"All Rights Reserved"** (default copyright). Reviewing the code constitutes acceptance that this work will **not be used, copied, modified, or distributed for any commercial or internal business purpose** by ICMarkets or its affiliates.
