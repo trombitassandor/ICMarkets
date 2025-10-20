@@ -11,7 +11,10 @@ This is a scaffolded solution implementing the ICMarkets Web API task:
 - Unit tests project
 - Functional, Integration tests projects (unfinished due to dotnet 9 - packages incompatibility & no capacity for that within context)
 
-Run project api: Build & run main project .Api (dotnet 9) / dotnet run OR dotnet run --project ICMarkets.Api.csproj (inside the repo)
+Run project api: 
+- run configuration Presentation: ICMarkets.Presentation
+- Build & run main project .Api (dotnet 9)
+- dotnet run OR dotnet run --project ICMarkets.Presentation.csproj (inside the repo)
 
 Run tests: run project .Tests.Unity OR dotnet test (inside the repo - Unit tests are supported only for now)
 
